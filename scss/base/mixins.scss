@@ -1,0 +1,18 @@
+@mixin flex {
+ display: -ms-flex;
+ display: -moz-flex;
+ display: -webkit-flex;
+ display: flex;
+} 
+@mixin featured-article($br-radius, $size, $color:$white-color, $bg:$curious-blue-color) {
+ border-radius: $br-radius;
+ font-size: $size;
+ color: $color;
+ background-color: $bg;
+}
+@mixin input-form($input-form-border, $input-form-b-radius, $color) {
+ border: $input-form-border;
+ border-radius: $input-form-b-radius;
+ color: $color;
+}
+

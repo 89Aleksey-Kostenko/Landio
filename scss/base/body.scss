@@ -1,0 +1,53 @@
+body {
+  line-height: 1.5;
+  background-color: $bg-primary;
+  color: $primary-color;
+  font-family: $font-second-level-heading;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+h1 {
+ font-family: $font-third-level-heading;
+}
+h2 {
+ font-family: $font-second-level-heading;
+}
+h3, h4 {
+ font-family: $font-third-level-heading;
+}
+h1 {
+ font-size: 30px;
+ line-height: 35px;
+}
+h2 {
+ font-size: 20px;
+ line-height: 30px;
+ text-align: center;
+}
+h3 {
+ font-size: 18px;
+ line-height: 25px;
+}
+h4 {
+ font-size: 16px;
+}
+p {
+ font-size: 15px;
+}
+a {
+ text-decoration: none;
+}
+img {
+ max-width: 100%;
+ display: block;
+}
+.row {
+ background-color: $bg-row;
+}
+.container {
+ width: 100%;
+ max-width: 1140px;
+ margin: 0 auto;
+ padding-left: 10px;
+ padding-right: 10px;
+}

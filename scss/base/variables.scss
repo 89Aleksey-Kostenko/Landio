@@ -1,0 +1,78 @@
+// COLORS 
+
+$white-color: #fff;
+$white-lighter: rgba(255,255,255,0.5);
+$silver-color: rgba(204, 204, 204, 0.5);
+$raven-color: #6f788c;
+$black-color: #000;
+$mako-color: rgb(66, 71, 83);
+$mako-lighter: rgba(66,71,83,0.4);
+$gallery-color: #ededed;
+$oslo-gray-color: rgb(129, 138, 145);
+$athens-gray-color: #eceff3;
+$titan-white-color: #ededef;
+$bombay-color: #aeb0b5;
+$blue-violet-color: #6c59b4;
+$victoria-color: #51418f;
+$curious-blue-color: #2b8be3;
+$solitude: #f4f5f7;
+$haiti: #312f38;
+$canary: #ffff8e;
+ 
+// COLORS: Links-panel-HEADER
+
+$panel-link: $mako-color; 
+
+// COLORS: bg-color
+
+$bg-primary: $white-color;        // body 
+$bg-wrapper: $victoria-color;     // wrapper
+$bg-row: $solitude;               // row
+$bg-footer: $haiti;                  // footer
+$bg-card-item: $white-color;      // card-item
+$bg-card-dedicated: $blue-violet-color;// выделен.
+$bg-search-panel: $canary;        // search-header
+$bg-scroll-header: rgba(108,89,180,0.9); // header-scroll
+
+// COLORS: social-icon-HEADER 
+
+$social-header: $white-lighter;
+
+// FONTS 
+
+$font-family-primary: 'Raleway Regular';
+$font-family-secondary: 'Lato', sans-serif;
+$font-first-level-heading: 'Raleway Bold';
+$font-second-level-heading: 'Raleway Regular';
+$font-third-level-heading: 'Raleway Medium';
+$font-fourth-level-heading: 'Raleway Light';
+
+// FOTNS: icons 
+
+$font-icon: "FontAwesome";
+
+// BORDER
+
+$features-border-icon: 5px solid $athens-gray-color;
+$price-card-border: 1px solid $titan-white-color;
+$qoute-img-border: 4px solid $white-color;
+$input-form-border: 1px solid rgb(224, 224, 229);
+$input-form-focus: 1px solid $blue-violet-color;
+$toggle-form-border: 1px solid $victoria-color;
+$header-img-border: 4px solid $white-color;
+
+// BORDER: radius
+
+$price-card-b-radius: 5px;
+$input-form-b-radius: 4px;
+
+// BOX-SHADOW
+
+$box-shadow-input: 0 0 4px rgba(135,121,189,.53);
+$header-scroll-shadow: 1px 1px 5px 0px rgba(0,0,0,0.35);
+$panel-shadow: 1px 0px 5px 0px rgba(0,0,0,0.40);
+
+// $ 
+
+$primary-color: $mako-color;
+$secondary-color: $white-color; 
